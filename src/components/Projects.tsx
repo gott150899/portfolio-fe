@@ -29,7 +29,7 @@ const Projects = () => {
             <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
             
             <div className="relative z-10 flex flex-col h-full items-start">
-                <div className="flex gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map(tag => (
                         <span key={tag} className="text-xs font-mono text-slate-400 bg-slate-950/50 px-2 py-1 rounded border border-slate-800">
                             {tag}

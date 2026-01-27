@@ -5,28 +5,29 @@ import {
   SiNextdotjs, 
   SiTailwindcss, 
   SiNodedotjs, 
-  SiPostgresql, 
   SiFramer, 
-  SiDocker, 
-  SiAmazonwebservices, 
   SiFigma, 
-  SiGit, 
-  SiGraphql 
+  SiGit,
+  SiAngular,
+  SiOpenai, // ChatGPT & Codex
+  SiMongodb, // Stitch placeholder
+  SiGoogle // Antigravity placeholder
 } from 'react-icons/si';
 
 const skills = [
   { name: "React", icon: <SiReact />, color: "hover:text-[#61DAFB]" },
+  { name: "Angular", icon: <SiAngular />, color: "hover:text-[#DD0031]" },
   { name: "TypeScript", icon: <SiTypescript />, color: "hover:text-[#3178C6]" },
   { name: "Next.js", icon: <SiNextdotjs />, color: "hover:text-white" },
   { name: "Tailwind", icon: <SiTailwindcss />, color: "hover:text-[#06B6D4]" },
   { name: "Node.js", icon: <SiNodedotjs />, color: "hover:text-[#339933]" },
-  { name: "PostgreSQL", icon: <SiPostgresql />, color: "hover:text-[#4169E1]" },
   { name: "Framer", icon: <SiFramer />, color: "hover:text-[#0055FF]" },
-  { name: "Docker", icon: <SiDocker />, color: "hover:text-[#2496ED]" },
-  { name: "AWS", icon: <SiAmazonwebservices />, color: "hover:text-[#FF9900]" },
   { name: "Figma", icon: <SiFigma />, color: "hover:text-[#F24E1E]" },
   { name: "Git", icon: <SiGit />, color: "hover:text-[#F05032]" },
-  { name: "GraphQL", icon: <SiGraphql />, color: "hover:text-[#E10098]" }
+  { name: "ChatGPT", icon: <SiOpenai />, color: "hover:text-[#412991]" },
+  { name: "Codex", icon: <SiOpenai />, color: "hover:text-[#412991]" },
+  { name: "Antigravity", icon: <SiGoogle />, color: "hover:text-[#4285F4]" },
+  { name: "Stitch", icon: <SiMongodb />, color: "hover:text-[#47A248]" },
 ];
 
 const TechStack = () => {

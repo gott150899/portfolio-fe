@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { User, Coffee, Award, BookOpen } from 'lucide-react';
+import aboutImage from '../assets/about-cartoon.png';
 
 const stats = [
     { icon: <Coffee size={24} />, label: "Coffee Consumed", value: "1000+" },
@@ -52,9 +53,9 @@ const About = () => {
             <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500 to-violet-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500" />
                 <div className="relative rounded-3xl overflow-hidden border border-slate-800 bg-slate-900/50 backdrop-blur-sm aspect-square md:aspect-[4/3]">
-                    {/* Placeholder for profile image - using a generic high-quality dev/desk setup image */}
+                    {/* Profile image - Cartoon style workspace */}
                     <img 
-                        src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=2699&auto=format&fit=crop" 
+                        src={aboutImage} 
                         alt="Workspace" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
                     />

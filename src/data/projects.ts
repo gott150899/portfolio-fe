@@ -64,8 +64,8 @@ export const projects: Project[] = [
     category: "AI Application",
     description: "Real-time streaming chat UI with markdown support.",
     fullDescription: "A modern chat interface built for interacting with Large Language Models. Features streamed responses, code syntax highlighting, and persistent chat history.",
-    tags: ["Next.js", "OpenAI", "Framer"],
-    tech: ["Next.js", "OpenAI API", "Framer Motion", "Tailwind CSS", "Prisma"],
+    tags: ["Next.js", "OpenAI", "Framer", "ChatGPT", "Antigravity"],
+    tech: ["Next.js", "OpenAI API", "Framer Motion", "Tailwind CSS", "ChatGPT", "Codex", "Antigravity", "Stitch"],
     features: [
         "Streamed AI responses like ChatGPT",
         "Markdown & Code block syntax highlighting",

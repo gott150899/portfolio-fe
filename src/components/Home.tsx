@@ -1,6 +1,7 @@
 import Navbar from './Navbar'
 import Hero from './Hero'
 import TechStack from './TechStack'
+import UILibraries from './UILibraries'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -12,6 +13,7 @@ const Home = () => {
             <main>
                 <Hero />
                 <TechStack />
+                <UILibraries />
                 
                 <div className="container mx-auto px-4 max-w-6xl">
                     <Projects />

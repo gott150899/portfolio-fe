@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute bottom-1/4 -right-12 w-64 h-64 bg-violet-600/20 rounded-full blur-[100px]" />
 
       <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <motion.div 
+          {/* <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -18,7 +18,7 @@ const Hero = () => {
           >
             <div className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
             Available for Freelance Work
-          </motion.div>
+          </motion.div> */}
 
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -36,7 +36,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="max-w-2xl mx-auto text-slate-400 text-lg md:text-xl mb-10 leading-relaxed"
           >
-            I'm a Full Stack Developer passionate about crafting accessible, pixel-perfect, and performant web applications.
+            I'm a Front-End Developer passionate about crafting accessible, pixel-perfect, and performant web applications.
           </motion.p>
 
           <motion.div 

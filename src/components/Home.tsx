@@ -4,6 +4,7 @@ import TechStack from './TechStack'
 import UILibraries from './UILibraries'
 import About from './About'
 import Projects from './Projects'
+import SideProjects from './SideProjects'
 import Contact from './Contact'
 
 const Home = () => {
@@ -14,9 +15,10 @@ const Home = () => {
                 <Hero />
                 <TechStack />
                 <UILibraries />
-                
+
                 <div className="container mx-auto px-4 max-w-6xl">
                     <Projects />
+                    <SideProjects />
                 </div>
 
                 <About />
@@ -25,7 +27,7 @@ const Home = () => {
                     <Contact />
                 </div>
             </main>
-            
+
             <footer className="py-8 text-center text-slate-600 text-sm">
                 <p>© {new Date().getFullYear()} DevPortfolio. Built with React & Tailwind v4.</p>
             </footer>

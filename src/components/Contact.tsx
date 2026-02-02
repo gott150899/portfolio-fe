@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
         
         <a 
-            href="mailto:contact@example.com" 
+            href="mailto:gott150899@gmail.com" 
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-cyan-500 text-slate-950 font-bold hover:bg-cyan-400 transition-colors shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)]"
         >
             <Mail size={20} />

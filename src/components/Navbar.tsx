@@ -66,9 +66,9 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={18} />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin size={18} />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail size={18} />, href: "mailto:contact@example.com", label: "Email" },
+    // { icon: <Github size={18} />, href: "https://github.com", label: "GitHub" },
+    { icon: <Linkedin size={18} />, href: "https://www.linkedin.com/in/ty-go-tran-644666248", label: "LinkedIn" },
+    { icon: <Mail size={18} />, href: "mailto:gott150899@gmail.com", label: "Email" },
   ];
 
   return (

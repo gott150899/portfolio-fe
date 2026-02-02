@@ -41,7 +41,7 @@ const ProjectDetail = () => {
                 <div className="bg-slate-900/50 border border-slate-800 rounded-3xl overflow-hidden backdrop-blur-sm shadow-2xl shadow-black/50">
                     {/* Hero Image */}
                     {/* Hero Image */}
-                    <div className="h-64 md:h-96 w-full relative group overflow-hidden">
+                    {/* <div className="h-64 md:h-96 w-full relative group overflow-hidden">
                         <div className="w-full h-full relative transition-transform duration-700 group-hover:scale-105">
                             <img
                                 src={project.image}
@@ -49,13 +49,11 @@ const ProjectDetail = () => {
                                 className="w-full h-full object-cover"
                             />
 
-                            {/* Brand Color Overlay on Hover */}
                             <div className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay z-10`} />
 
-                            {/* Bottom Fade for Smooth Transition */}
                             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent z-20" />
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="p-8 md:p-12 relative">
                         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
@@ -64,14 +62,23 @@ const ProjectDetail = () => {
                                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{project.title}</h1>
                             </div>
 
-                            <div className="flex gap-4">
-                                <a href={project.repoLink} className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-800 text-white hover:bg-slate-700 transition-colors border border-slate-700 font-medium">
-                                    <Github size={18} /> Repo
-                                </a>
-                                <a href={project.liveLink} className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-cyan-600 text-white hover:bg-cyan-500 transition-colors font-bold shadow-lg shadow-cyan-900/20">
-                                    Live Demo <ExternalLink size={18} />
-                                </a>
-                            </div>
+                            {
+                                (project.repoLink || project.liveLink) &&
+                                <div className="flex gap-4">
+                                    {
+                                        project.repoLink && 
+                                        <a href={project.repoLink} className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-800 text-white hover:bg-slate-700 transition-colors border border-slate-700 font-medium">
+                                            <Github size={18} /> Repo
+                                        </a>
+                                    }
+                                    {
+                                        project.liveLink &&
+                                        <a href={project.liveLink} className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-cyan-600 text-white hover:bg-cyan-500 transition-colors font-bold shadow-lg shadow-cyan-900/20">
+                                            Live Demo <ExternalLink size={18} />
+                                        </a>
+                                    }
+                                </div>
+                            }
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">

@@ -64,13 +64,18 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
+                <div className="mt-6">
+                  <Link to={`/project/${project.id}`} className="flex items-center gap-2 text-sm font-medium text-white group-hover:underline decoration-cyan-500 underline-offset-4">
+                    View Project <ExternalLink size={14} />
+                  </Link>
+                </div>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
 
-      <motion.h2
+      {/* <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -112,7 +117,7 @@ const Projects = () => {
             </div>
           </motion.div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -1,7 +1,7 @@
-import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
+import { Linkedin, Mail, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const location = useLocation();

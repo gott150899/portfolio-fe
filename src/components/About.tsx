@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Coffee, Award, BookOpen } from 'lucide-react';
+import { Award, Coffee, User } from 'lucide-react';
 import aboutImage from '/about-cartoon.png';
 
 const stats = [

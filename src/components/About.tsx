@@ -4,7 +4,7 @@ import aboutImage from '/about-cartoon.png';
 
 const stats = [
     { icon: <Coffee size={24} />, label: "Coffee Consumed", value: "1000+" },
-    { icon: <Award size={24} />, label: "Years Experience", value: "3+" },
+    { icon: <Award size={24} />, label: "Years Experience", value: "4+" },
     { icon: <User size={24} />, label: "Clients Served", value: "10+" },
     // { icon: <BookOpen size={24} />, label: "Books Read", value: "100+" },
 ];

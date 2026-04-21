@@ -64,7 +64,7 @@ const Resume = () => {
 
                 <a 
                     href={resumeUrl} 
-                    download="My_Resume.pdf"
+                    download="TranTyGo_Frontend_CV.pdf"
                     className="flex items-center gap-2 px-6 py-3 rounded-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold transition-all shadow-lg shadow-cyan-900/20 hover:shadow-cyan-900/40"
                 >
                     <Download size={20} />

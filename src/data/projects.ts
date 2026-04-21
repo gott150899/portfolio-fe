@@ -40,7 +40,7 @@ export const projects: Project[] = [
     colSpan: "col-span-1 md:col-span-2",
     role: "Frontend Developer implementing the UI/UX and integrating with Stitch and Antigravity",
     startDate: "07/2025",
-    endDate: "Present"
+    endDate: "04/2026"
   },
   {
     id: "ivivu-hotel",
@@ -130,7 +130,7 @@ export const sideProjects: Project[] = [
     ],
     image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2370&auto=format&fit=crop",
     repoLink: "",
-    liveLink: "https://bandetest.mongvo.com/",
+    liveLink: "https://mocktest.emigroup.vn/",
     color: "from-sky-500/20 to-sky-600/5",
     colSpan: "col-span-1",
     role: "Frontend Developer",

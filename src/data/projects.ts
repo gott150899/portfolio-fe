@@ -40,7 +40,7 @@ export const projects: Project[] = [
     colSpan: "col-span-1 md:col-span-2",
     role: "Frontend Developer implementing the UI/UX and integrating with Stitch and Antigravity",
     startDate: "07/2025",
-    endDate: "04/2026"
+    endDate: "05/2026"
   },
   {
     id: "ivivu-hotel",
